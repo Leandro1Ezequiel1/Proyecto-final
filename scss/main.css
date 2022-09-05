@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: aqua;
+}
+.header__logo {
+  width: 100px;
+  height: 100px;
+}
+.header__h1 {
+  text-align: center;
+}
+.header__container-fluid {
+  flex-direction: column;
+}
+
+.body__li {
+  background-color: #A9E190;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  background-color: #DBF4AD;
+}
+.footer__h3 {
+  color: black;
+}
+
+.section {
+  display: flex;
+}
+.section__img {
+  width: 100%;
+  height: 250px;
+}
+.section__img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+.col-lg-4 {
+  padding: 20px;
+}
+
+.container {
+  background-color: #A9E190;
+}
+
+.formulario {
+  background-color: #A9E190;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+.formulario__h4 {
+  text-align: center;
+}
+.formulario__button {
+  background-color: #A5AA52;
+}
+.formulario__button:hover {
+  border: 3px solid #f7f7f7;
+}
+.formulario__iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.card__container {
+  background-color: #A5AA52;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+.card__body {
+  background-color: #A9E190;
+}
+
+@media (min-width: 320px) {
+  .header {
+    text-align: center;
+  }
+  .header__logo {
+    width: 80px;
+    height: 80px;
+  }
+  .bg-light {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #767522 !important;
+  }
+  .body__li {
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+.footer__h3 {
+  font-size: calc(1rem + 0.6vw);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

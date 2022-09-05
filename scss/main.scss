@@ -1,0 +1,160 @@
+// mobile first
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: aqua;
+  &__logo {
+    width: 100px;
+    height: 100px;
+  }
+  &__h1 {
+    text-align: center;
+  }
+  &__container-fluid {
+    flex-direction: column;
+  }
+}
+.body{
+  background-color: #a9e190;
+}
+&__li {
+  background-color: #a9e190;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer {
+  background-color: #dbf4ad;
+  &__h3 {
+    color: black;
+  }
+}
+.div {
+  display: flex;
+  &__img {
+    width: 100%;
+    height: 250px;
+  }
+  &__img:hover {
+    border: 5px solid #f7f7f7;
+  }
+}
+.col-lg-4 {
+  padding: 20px;
+}
+.container {
+  background-color: #a9e190;
+}
+.formulario {
+  background-color: #a9e190;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  &__h4 {
+    text-align: center;
+  }
+  &__button {
+    background-color: #a5aa52;
+  }
+  &__button:hover {
+    border: 3px solid #f7f7f7;
+  }
+  &__iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+.card {
+  &__container {
+    background-color: #a5aa52;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+  }
+  &__body {
+    background-color: #a9e190;
+  }
+}
+.row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+@media (min-width: 320px) {
+  .header {
+    text-align: center;
+    &__logo {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .bg-light {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #767522 !important;
+  }
+
+  .body {
+    &__li {
+      list-style: none;
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+}
+.footer {
+  &__h3 {
+    font-size: calc(1rem + 0.6vw);
+    text-align: center;
+  }
+}
+@media (min-width: 480px) {
+  .card__container {
+    background-color: #a5aa52;
+    text-align: center;
+    margin: 0px;
+    padding: 96px;
+  }
+}
+@media (min-width: 600px) {
+  .body {
+    background-color: #a9e190;
+  }
+  .card__container {
+    display: grid;
+    justify-content: space-around;
+  }
+  .container {
+    background-color: #a9e190;
+  }
+}
+@media (min-width: 780px) {
+  .body {
+    flex-direction: inherit;
+    background-color: #a9e190!important;
+    &__li {
+      list-style: none;
+      text-align: center;
+      background-color: #a9e190;
+      list-style: none;
+      text-align: center;
+      }
+      .card__container {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+    .formulario__iframe{
+        position: relative;
+        left: 28%;
+
+    }
+    }
+
+
