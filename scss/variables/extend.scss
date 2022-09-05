@@ -1,0 +1,10 @@
+%strong{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 20px;;
+}
+@mixin fontStyle {
+    background-color: bisque;
+    color: black;
+    text-transform: uppercase;
+}

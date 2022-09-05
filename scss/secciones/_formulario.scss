@@ -1,0 +1,21 @@
+.formulario {
+    background-color: #a9e190;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    &__h4 {
+      text-align: center;
+    }
+    &__button {
+      background-color: #a5aa52;
+    }
+    &__button:hover {
+      border: 3px solid #f7f7f7;
+    }
+    &__iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }

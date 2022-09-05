@@ -1,0 +1,13 @@
+.header {
+    background-color: aqua;
+    &__logo {
+      width: 100px;
+      height: 100px;
+    }
+    &__h1 {
+      text-align: center;
+    }
+    &__container-fluid {
+      flex-direction: column;
+    }
+  }
