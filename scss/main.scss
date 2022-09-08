@@ -10,6 +10,7 @@
 @import'./secciones/galeria';
 @import'./secciones/formulario';
 @import'./secciones/card';
+@import'./secciones/acordeon';
 // variables
 @import'./variables/extend.scss';
 
@@ -53,24 +54,29 @@
 }
 @media (min-width: 480px) {
   .card__container {
-    background-color: #a5aa52;
-    text-align: center;
-    margin: 0px;
-    padding: 96px;
-  }
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
 }
 @media (min-width: 600px) {
   .body {
     background-color: #a9e190;
   }
-  .card__container {
-    display: grid;
-    justify-content: space-around;
+    .card__container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+  }
   }
   .container {
     background-color: #a9e190;
   }
-}
+
 @media (min-width: 780px) {
   .body {
     flex-direction: inherit;
@@ -84,8 +90,11 @@
       }
       .card__container {
         display: flex;
-        justify-content: space-around;
-      }
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
     }
     .formulario__iframe{
         position: relative;
@@ -93,5 +102,12 @@
 
     }
     }
-
-
+    @media(min-width:1024px){
+      .card__container {
+        display: flex!important;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    }

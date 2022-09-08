@@ -1,11 +1,13 @@
-.card {
-    &__container {
-      background-color: #a5aa52;
-      text-align: center;
-      margin: 0px;
-      padding: 20px;
-    }
+.card__container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #A9E190;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  }
     &__body {
       background-color: #a9e190;
     }
-  }
