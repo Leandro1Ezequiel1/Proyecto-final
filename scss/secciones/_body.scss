@@ -2,9 +2,9 @@
     background-color: #a9e190;
   }
   &__li {
-    background-color: #a9e190;
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+      background-color: #A9E190;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      
   }

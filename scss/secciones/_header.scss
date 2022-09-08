@@ -6,8 +6,12 @@
     }
     &__h1 {
       text-align: center;
+      color: cadetblue;
     }
     &__container-fluid {
       flex-direction: column;
+    }
+    .nav-link{
+      background-color: cadetblue;     
     }
   }

@@ -1,6 +1,28 @@
 .footer {
-    background-color: #dbf4ad;
+    height: 200px;
+    background-color: #DBF4AD;
     &__h3 {
       color: black;
+    }
+    &__logo-insta{ 
+     width: 60px;
+     height: 60px;
+      position: relative;
+      left: 20%;
+
+    }
+    &__logo-wp{  
+    width: 60px;
+    height: 60px;
+      position: relative;
+      left: 38%;
+
+    }
+    &__logo-face{ 
+     width: 60px;
+     height: 60px;
+      position: relative;
+      left: 33%;
+
     }
   }
